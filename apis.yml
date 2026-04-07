@@ -1,7 +1,12 @@
 aid: a-schulman
-url: https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.a-schulman.com
+description: >-
+  A. Schulman is a global supplier of high-performance plastic compounds, composites,
+  and powders used by manufacturers across packaging, automotive, electronics, and
+  consumer goods industries.
