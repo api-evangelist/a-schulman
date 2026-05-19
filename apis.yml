@@ -57,6 +57,8 @@ apis:
       and composites. Includes formulation customization and processing optimization.
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/a--schulman-inc-
   - type: Website
     url: https://www.lyondellbasell.com
   - type: Features
