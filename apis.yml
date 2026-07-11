@@ -57,6 +57,8 @@ apis:
       and composites. Includes formulation customization and processing optimization.
 
 common:
+  - type: DomainSecurity
+    url: security/a-schulman-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/a--schulman-inc-
   - type: Website
