@@ -32,7 +32,7 @@ description: >-
   plastics, masterbatches, compounds, and specialty powders to global manufacturers.
 created: '2026-04-19'
 modified: '2026-04-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: a-schulman:a-schulman-product-catalog
     name: A. Schulman Product Catalog
