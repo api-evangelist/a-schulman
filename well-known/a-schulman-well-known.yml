@@ -1,0 +1,103 @@
+generated: '2026-08-29'
+method: probed
+source: >-
+  Live unauthenticated HTTP probes of the /.well-known/ surface on the A. Schulman
+  legacy domain and on the successor LyondellBasell hosts, 2026-08-29.
+provider: A. Schulman
+providerId: a-schulman
+description: >-
+  A. Schulman was acquired by LyondellBasell in 2018 and the brand was absorbed into the
+  Advanced Polymer Solutions division. The legacy aschulman.com domain still resolves
+  (165.249.0.58, Azure DNS) but serves an IIS "Not Found" page over plain HTTP and does not
+  complete a TLS handshake at all. No /.well-known/ document was served by any host probed.
+notes: >-
+  EVERY path 404d (or 500d on the customer portal). No WellKnown, SecurityTxt, APICatalog or
+  AgentCard pointer is emitted in apis.yml, because a recorded absence is not a presence.
+  The lyb.customerxpress.com host answers 500 for every /.well-known/* path rather than 404,
+  which is an application error page, not a served document.
+hosts:
+  - host: www.aschulman.com
+    note: >-
+      Legacy A. Schulman corporate domain. HTTPS does not negotiate (connection failure);
+      probes were made over HTTP, which returns a bare IIS 404 for the site root as well.
+    scheme: http
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: www.lyondellbasell.com
+    note: >-
+      Successor corporate site (Optimizely/Episerver). Returns an HTML 404 page for every
+      /.well-known/ path; no document served.
+    scheme: https
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: lyb.customerxpress.com
+    note: >-
+      LyondellBasell CustomerXPRESS ordering portal — the closest thing to an integration
+      surface, and it is a login wall (root 200 redirects to /Login). Every /.well-known/
+      path returns a 500 HTML error page, not a document.
+    scheme: https
+    documents:
+      - path: /.well-known/security.txt
+        status: 500
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 500
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 500
+        file: null
+      - path: /.well-known/api-catalog
+        status: 500
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 500
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 500
+        file: null
+      - path: /.well-known/agent.json
+        status: 500
+        file: null
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

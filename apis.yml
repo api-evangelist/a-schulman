@@ -42,8 +42,11 @@ description: >-
   now operates as the Advanced Polymer Solutions division, continuing to supply engineered
   plastics, masterbatches, compounds, and specialty powders to global manufacturers.
 created: '2026-04-19'
-modified: '2026-04-19'
+modified: '2026-08-29'
 specificationVersion: '0.23'
+x-status: defunct
+x-status-detail: Acquired by LyondellBasell in 2018 and absorbed into its Advanced Polymer
+  Solutions segment; no longer exists as an independent entity.
 apis:
   - aid: a-schulman:a-schulman-product-catalog
     name: A. Schulman Product Catalog
@@ -55,8 +58,8 @@ apis:
       - Composites
     humanURL: https://www.lyondellbasell.com
     properties:
-      - url: https://www.lyondellbasell.com
-        type: Documentation
+      - url: https://www.lyondellbasell.com/en/our-solutions/products/advanced-polymer-solutions/
+        type: Website
     description: >-
       High-performance plastic compounds, composites, masterbatches, and specialty
       powders for automotive, packaging, electronics, agriculture, and consumer goods
@@ -72,20 +75,23 @@ apis:
       - Product Development
     humanURL: https://www.lyondellbasell.com
     properties:
-      - url: https://www.lyondellbasell.com
-        type: Documentation
+      - url: https://www.lyondellbasell.com/en/our-solutions/products/advanced-polymer-solutions/
+        type: Website
     description: >-
       Technical support, materials testing, product development, and application
       engineering services for manufacturers using high-performance plastic compounds
       and composites. Includes formulation customization and processing optimization.
 
 common:
+  - type: LLMsTxt
+    url: llms/a-schulman-llms.txt
   - type: DomainSecurity
     url: security/a-schulman-domain-security.yml
   - type: LinkedIn
-    url: https://www.linkedin.com/company/a--schulman-inc-
-  - type: Website
-    url: https://www.lyondellbasell.com
+    url: https://www.linkedin.com/company/lyondellbasell-aschulman
+  # No Website on purpose. A. Schulman was acquired by LyondellBasell in 2018 and has no
+  # site of its own; lyondellbasell.com is the ACQUIRER's page. Registering it would make
+  # the rating read another company's surface as this one's (same class as roadmap#56).
   - type: Features
     data:
       - name: Plastic Compounds
@@ -147,3 +153,29 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-08-29'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    A. Schulman was acquired by LyondellBasell in 2018 and fully absorbed into its Advanced
+    Polymer Solutions division; the legacy aschulman.com domain still resolves but refuses TLS
+    entirely and serves a bare IIS "Not Found" page over HTTP, so there is no A. Schulman surface
+    of any kind left to read.
+  evidence:
+    - url: http://www.aschulman.com/
+      status: 404
+    - url: https://www.aschulman.com/
+      status: 0
+    - url: https://www.lyondellbasell.com/.well-known/api-catalog
+      status: 404
+    - url: https://lyb.customerxpress.com/
+      status: 200
+  checked: '2026-08-29'
+x-parent: lyondellbasell
+x-relationship: acquisition
+x-acquired: 2018
