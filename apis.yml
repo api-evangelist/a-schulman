@@ -83,6 +83,11 @@ apis:
       and composites. Includes formulation customization and processing optimization.
 
 common:
+  - type: ParentCompany
+    url: https://apis.io/providers/lyondellbasell/
+    name: LyondellBasell
+    x-relationship: acquired
+    x-evidence: "The company was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer Solutions division, continuing to supply engineered plastics, masterbatches, compounds, and specialty powders to global manufacturers."
   - type: LLMsTxt
     url: llms/a-schulman-llms.txt
   - type: DomainSecurity
