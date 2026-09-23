@@ -1,7 +1,9 @@
 ---
 title: Kevin A. Schulman | Stanford Graduate School of Business
 url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"A. Schulman" press release artificial intelligence'
 position: 4
 source: serpapi-google

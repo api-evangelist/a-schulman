@@ -1,7 +1,9 @@
 ---
 title: Application of artificial intelligence chatbots, including ...
 url: https://www.jeehp.org/DOIx.php?id=10.3352/jeehp.2023.20.38
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"A. Schulman" press release artificial intelligence'
 position: 3
 source: serpapi-google

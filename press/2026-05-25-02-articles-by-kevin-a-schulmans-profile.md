@@ -1,7 +1,9 @@
 ---
 title: Articles by Kevin A. Schulman's Profile
 url: https://muckrack.com/kevin-a-schulman/articles
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"A. Schulman" press release artificial intelligence'
 position: 2
 source: serpapi-google

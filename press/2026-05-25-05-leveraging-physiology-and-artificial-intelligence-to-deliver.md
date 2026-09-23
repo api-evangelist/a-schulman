@@ -1,7 +1,9 @@
 ---
 title: Leveraging physiology and artificial intelligence to deliver ...
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10390055/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"A. Schulman" press release artificial intelligence'
 position: 5
 source: serpapi-google

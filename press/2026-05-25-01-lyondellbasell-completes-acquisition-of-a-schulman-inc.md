@@ -1,7 +1,9 @@
 ---
 title: LyondellBasell Completes Acquisition of A. Schulman, Inc.
 url: https://www.prnewswire.com/news-releases/lyondellbasell-completes-acquisition-of-a-schulman-inc-300700108.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"A. Schulman" press release artificial intelligence'
 position: 1
 source: serpapi-google
