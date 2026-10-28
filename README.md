@@ -1,4 +1,4 @@
-# A. Schulman (a-schulman)
+# A. Schulman
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,83 +64,61 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
 A. Schulman was a global supplier of high-performance plastic compounds, composites, and powders used by manufacturers across packaging, automotive, electronics, and consumer goods industries. The company was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer Solutions division, continuing to supply engineered plastics, masterbatches, compounds, and specialty powders to global manufacturers.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/a-schulman/refs/heads/main/apis.yml)
+**Areas:** Plastics · Polymers · Manufacturing · Chemicals · Automotive · Packaging · Electronics · Defunct
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## A. Schulman on APIs.io (historical record)
 
-## Tags:
+Everything profiled for A. Schulman is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/a-schulman/](https://apis.io/providers/a-schulman/)** — or go straight to one of the APIs or properties below.
 
- - Plastics, Polymers, Manufacturing, Chemicals, Automotive, Packaging, Electronics
+### APIs (2)
 
-## Timestamps
+- [A. Schulman Product Catalog](https://apis.io/apis/a-schulman/a-schulman-product-catalog/) — High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods…
+- [A. Schulman Technical Services](https://apis.io/apis/a-schulman/a-schulman-technical-services/) — Technical support, materials testing, product development, and application engineering services for manufacturers using high-performance plastic compounds…
 
-- **Created:** 2026-04-19
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### A. Schulman Product Catalog
-High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered compounds, color masterbatches, additive masterbatches, and performance polymer alloys.
+#### Security (1)
 
-**Human URL:** [https://www.lyondellbasell.com](https://www.lyondellbasell.com)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [A Schulman Domain Security](https://apis.io/security/a-schulman/a-schulman-domain-security/)
 
- - Plastics, Polymers, Compounds, Masterbatch, Composites
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.lyondellbasell.com)
+- [A Schulman Plans Pricing](https://apis.io/plans/a-schulman/a-schulman-plans-pricing/)
 
-### A. Schulman Technical Services
-Technical support, materials testing, product development, and application engineering services for manufacturers using high-performance plastic compounds and composites. Includes formulation customization and processing optimization.
+#### Rate limits (1)
 
-**Human URL:** [https://www.lyondellbasell.com](https://www.lyondellbasell.com)
+Published request limits.
 
-#### Tags:
+- [A Schulman Rate Limits](https://apis.io/rate-limits/a-schulman/a-schulman-rate-limits/)
 
- - Plastics, Technical Support, Materials Testing, Product Development
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://www.lyondellbasell.com)
+- [A Schulman Finops](https://apis.io/finops/a-schulman/a-schulman-finops/)
 
-## Common Properties
+## API Evangelist rating
 
-- [Website](https://www.lyondellbasell.com)
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## Features
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Plastic Compounds | High-performance plastic compounds engineered for specific application requirements across automotive, packaging, electronics, and consumer goods. |
-| Masterbatches | Color and additive masterbatches for consistent colorization and functional enhancement of plastic products during manufacturing. |
-| Composites | Advanced fiber-reinforced and specialty composites for structural and functional applications in automotive and industrial markets. |
-| Specialty Powders | Fine plastic powders for rotomolding, powder coatings, and other specialized manufacturing processes. |
-| Custom Formulation | Custom compound formulation services to meet specific mechanical, thermal, and processing requirements for unique applications. |
-| Global Manufacturing | Manufacturing facilities across North America, Europe, and Asia providing global supply chain coverage for multinational customers. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Use Cases
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for A. Schulman: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Automotive Parts Manufacturing | Lightweight, high-strength plastic compounds for interior and exterior automotive components, replacing metals to reduce vehicle weight. |
-| Flexible Packaging | Specialized polymer compounds for flexible packaging films, pouches, and containers in food, pharmaceutical, and consumer goods markets. |
-| Electronics Enclosures | Flame-retardant, EMI-shielding, and thermally conductive compounds for electronic device housings and components. |
-| Agricultural Films | Specialty polyethylene compounds for greenhouse films, mulch films, and agricultural packaging applications. |
-| Consumer Products Coloring | Color masterbatches enabling consistent, cost-effective coloring of plastic consumer products during injection molding and extrusion. |
+## Open an issue
 
-## Integrations
-
-| Name | Description |
-|------|-------------|
-| LyondellBasell Advanced Polymer Solutions | A. Schulman operations now integrated into LyondellBasell's Advanced Polymer Solutions division following the 2018 acquisition. |
-| Global Distribution Network | Extensive distribution partnerships for delivery of plastic compounds and masterbatches to manufacturers globally. |
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/a-schulman/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
