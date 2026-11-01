@@ -1,0 +1,61 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: A. Schulman
+providerId: a-schulman
+created: '2026-05-04'
+# Provenance stamped 2026-08-11: this artifact was written by the API Evangelist
+# bulk sweep dated 2026-05-04, not harvested from the provider. See roadmap#35.
+method: generated
+modified: '2026-05-05'
+reconciled: false
+tags:
+  - Plastics
+  - Polymers
+  - Manufacturing
+  - Chemicals
+description: A. Schulman was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer
+  Solutions division. There is no public developer pricing or self-service API plan; product/order integrations
+  are handled through the LyondellBasell customer-portal and standard B2B channels.
+notes: No public developer pricing — placeholder only. Provider is now part of LyondellBasell APS; integrations
+  go through commercial contracts.
+sources:
+  - https://www.lyondellbasell.com
+plans:
+  - id: a-schulman-customer
+    name: Customer / Distributor Account
+    type: enterprise
+    description: Customer or distributor account for the Advanced Polymer Solutions catalog.
+    entries:
+      - label: Customer account
+        name: customer_account
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact LyondellBasell sales
+        userMultiplied: false
+    elements:
+      - name: Polymer compound and masterbatch catalog
+      - name: Order and delivery integrations governed by sales agreement
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - negotiated
+  plans:
+  - name: Customer / Distributor Account
+    access: enterprise
+    model: subscription
+    model_how: derived
+    units:
+    - negotiated
+    periods:
+    - year
