@@ -87,25 +87,25 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A Schulman Domain Security](https://apis.io/security/a-schulman/a-schulman-domain-security/)
+- [A. Schulman Domain Security](https://apis.io/security/a-schulman/a-schulman-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [A Schulman Plans Pricing](https://apis.io/plans/a-schulman/a-schulman-plans-pricing/)
+- [A. Schulman Plans Pricing](https://apis.io/plans/a-schulman/a-schulman-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [A Schulman Rate Limits](https://apis.io/rate-limits/a-schulman/a-schulman-rate-limits/)
+- [A. Schulman Rate Limits](https://apis.io/rate-limits/a-schulman/a-schulman-rate-limits/)
 
 #### FinOps (1)
 
 What the API costs to run, by operation.
 
-- [A Schulman Finops](https://apis.io/finops/a-schulman/a-schulman-finops/)
+- [A. Schulman Finops](https://apis.io/finops/a-schulman/a-schulman-finops/)
 
 ## API Evangelist rating
 
